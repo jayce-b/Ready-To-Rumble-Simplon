@@ -21,9 +21,9 @@ function Fighter(name, health, damagePerAttack, special, avatar) {
 fightersFunctionSet = function() {
     ryan = new Fighter('Ryan', 110, 21, 'Triple Punch', 'img/Ryan.png');
     xavier = new Fighter('Xavier', 100, 14, 'Troll Attack', 'img/Ryan.png');
-    aaron = new Fighter('Aaron', 145, 17, 'Black Mamba', 'img/Aaron.png');
+    aaron = new Fighter('Aaron', 7450, 450, 'Black Mamba', 'img/Aaron.png');
     totor = new Fighter('Totor', 90, 14, 'Equarissage', 'img/Totor.png');
-    crispy = new Fighter('Crispy', 100, 16, 'Axe Throw', 'img/Crispy.png');
+    crispy = new Fighter('Crispy', 7990, 560, 'Axe Throw', 'img/Crispy.png');
     chuck = new Fighter('Chuck Norris', 9999, 99, 'Round House Kick', 'img/Ryan.png');
 
     fightersArray = [ryan, aaron, totor, chuck, xavier, crispy];
